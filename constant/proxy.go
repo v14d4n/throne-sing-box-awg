@@ -32,6 +32,7 @@ const (
 	TypeOCM          = "ocm"
 	TypeOOMKiller    = "oom-killer"
 	TypeTrustTunnel  = "trusttunnel"
+	TypeAwg          = "awg"
 
 	TypeJuicity = "juicity"
 )

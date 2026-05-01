@@ -42,7 +42,8 @@
           "ts_omit_kube",
           "ts_omit_aws",
           "ts_omit_synology",
-          "ts_omit_bird"
+          "ts_omit_bird",
+          "with_awg"
         ],
         "ldflags": "-X github.com/sagernet/sing-box/constant.Version=${VERSION} -X internal/godebug.defaultGODEBUG=multipathtcp=0 -s -w -buildid= -checklinkname=0",
         "trimpath": true
@@ -71,7 +72,8 @@
           "ts_omit_kube",
           "ts_omit_aws",
           "ts_omit_synology",
-          "ts_omit_bird"
+          "ts_omit_bird",
+          "with_awg"
         ],
         "ldflags": "-X github.com/sagernet/sing-box/constant.Version=${VERSION} -X internal/godebug.defaultGODEBUG=multipathtcp=0 -s -w -buildid= -checklinkname=0",
         "trimpath": true
@@ -103,7 +105,8 @@
           "ts_omit_kube",
           "ts_omit_aws",
           "ts_omit_synology",
-          "ts_omit_bird"
+          "ts_omit_bird",
+          "with_awg"
         ],
         "ldflags": "-X github.com/sagernet/sing-box/constant.Version=${VERSION} -X internal/godebug.defaultGODEBUG=multipathtcp=0 -s -w -buildid= -checklinkname=0",
         "trimpath": true
@@ -144,7 +147,8 @@
           "ts_omit_kube",
           "ts_omit_aws",
           "ts_omit_synology",
-          "ts_omit_bird"
+          "ts_omit_bird",
+          "with_awg"
         ],
         "ldflags": "-X github.com/sagernet/sing-box/constant.Version=${VERSION} -X internal/godebug.defaultGODEBUG=multipathtcp=0 -s -w -buildid= -checklinkname=0",
         "trimpath": true
